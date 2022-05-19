@@ -1,34 +1,73 @@
 $font-style:'Inter', sans-serif;
-.container{
-    background-color:rgb(228, 224, 224);
+.counter-cover{
+  font-family: $font-style;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // use hex color code-------------
+    background-color: #FDFCFB;
     padding:40px;
-    margin-top: 70px;
-  }
-  .card-body{
-    background-color: rgb(200, 225, 234);
-    text-align: center;
-    padding: 30px;
-    font-family: $font-style;
-
-  }
-  button{
+    margin: 100px;
     border-radius: 10px;
-    padding: 8px;
-    margin: 15px;
+    border: 1px dashed #e8e5dd;
+  color: #3f8f8b;
+  // box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  }
+  .counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  // .card-body{
+  //   text-align: center;
+  //   padding: 30px;
+  //   font-family: $font-style;
+  // }
+  .counter-btn{
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px 10px;
     font-weight:500;
+    border: 0px;
+    font-family: $font-style;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  }
 
-  
-  }
-  .button1{
-    background-color: rgb(115, 161, 139);
-    border-color: rgb(115, 161, 139);
-  }
-  .button2{
-    background-color:rgb(211, 160, 160);
-    border-color: rgb(211, 160, 160) ;
-    
-  }
-  .button3{
-    background-color: lightgray;
-    border-color: lightgray;
-  }
+.increment-btn{
+  background-color: #4fc9da;
+}
+.increment-btn:hover{
+  background-color: #46a7b4;
+}
+
+.decrement-btn{
+  background-color: #c9acc1;
+}
+.decrement-btn:hover{
+  background-color: #a08e9b;
+}
+
+.reset-btn{
+  background-color: #fd5d5d;
+}
+.reset-btn:hover{
+  background-color: #ec3636;
+}
+  // .button1{
+  //   background-color: rgb(115, 161, 139);
+  //   border-color: rgb(115, 161, 139);
+  // }
+  // .button2{
+  //   background-color:rgb(211, 160, 160);
+  //   border-color: rgb(211, 160, 160) ;
+  // }
+  // .button3{
+  //   background-color: lightgray;
+  //   border-color: lightgray;
+  // }
